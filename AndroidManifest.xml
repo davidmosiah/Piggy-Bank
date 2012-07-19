@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="com.delx.mybank" android:versionCode="2"
+	android:versionName="1.0">
+	<uses-sdk android:minSdkVersion="3" />
+	<uses-permission android:name="android.permission.INTERNET"></uses-permission>
+
+	<application android:icon="@drawable/icon" android:label="@string/app_name">
+		<activity android:name=".DashBoard" android:label="@string/app_name"
+			android:theme="@android:style/Theme.Black.NoTitleBar">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+		
+		<activity android:name=".Bemvindo" android:label="@string/app_name"
+			android:theme="@android:style/Theme.Black.NoTitleBar" />
+			
+		<activity android:name=".ListarSonhos" android:label="@string/app_name"
+			android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+		<activity android:name=".ValorTotal" android:label="@string/app_name"
+			android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+		<activity android:name=".Poupanca" android:label="@string/app_name"
+			android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+		<activity android:name=".Resultado" android:label="@string/app_name"
+			android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+		<activity android:name=".EscolherSonho" android:label="@string/app_name"
+			android:theme="@android:style/Theme.Black.NoTitleBar"
+			android:screenOrientation="portrait" />
+
+		<activity android:name=".Detalhes" android:label="@string/app_name"
+			android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+		<activity android:name=".Editar" android:label="@string/app_name"
+			android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+		<activity android:name=".Depositar" android:label="@string/app_name"
+			android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+		<activity android:name=".Contato" android:label="@string/app_name"
+			android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+		<activity android:name=".ListarDicas" android:label="@string/app_name"
+			android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+		<activity android:name=".DetalhesDicas" android:label="@string/app_name"
+			android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+		<activity android:name=".Favoritos" android:label="@string/app_name"
+			android:theme="@android:style/Theme.Black.NoTitleBar" />
+
+		<activity android:name=".Trofeus" android:label="@string/app_name"
+			android:theme="@android:style/Theme.Black.NoTitleBar" />		
+		
+		<!-- Airpush Code Start -->
+		<activity android:name="com.airpush.android.PushAds"
+			android:configChanges="orientation|keyboardHidden" />
+		<receiver android:name="com.airpush.android.UserDetailsReceiver" />
+		<receiver android:name="com.airpush.android.MessageReceiver" />
+		<receiver android:name="com.airpush.android.DeliveryReceiver" />
+		<receiver android:name=".BootReceiver">
+			<intent-filter>
+				<action android:name="android.intent.action.BOOT_COMPLETED" />
+				<category android:name="android.intent.category.HOME" />
+			</intent-filter>
+		</receiver>
+		<service android:name="com.airpush.android.PushService">
+			<intent-filter>
+				<action android:name="com.airpush.android.PushServiceStart60890" />
+			</intent-filter>
+		</service>
+		<!-- Airpush Code End -->
+		<receiver android:name="com.Leadbolt.AdNotification" />
+	</application>
+	<uses-permission android:name="android.permission.CAMERA" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.VIBRATE" />
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+	<uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" />
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+</manifest>

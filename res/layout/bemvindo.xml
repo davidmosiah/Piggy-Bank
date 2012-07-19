@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/bg" android:paddingTop="5dp">
+    <LinearLayout android:layout_width="fill_parent" android:id="@+id/LinearLayout04" android:background="#F5F5F5" android:orientation="vertical" android:layout_height="fill_parent">
+        <LinearLayout android:paddingTop="5dp" android:gravity="center" android:layout_width="fill_parent" android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:orientation="horizontal">
+            <ImageView android:src="@drawable/icon" android:id="@+id/imageView1" android:layout_width="80dp" android:layout_height="80dp"></ImageView>
+            <ImageView android:layout_width="wrap_content" android:id="@+id/logoinspiration" android:src="@drawable/logo" android:layout_height="wrap_content"></ImageView>
+        </LinearLayout>
+        <ScrollView android:layout_width="fill_parent" android:id="@+id/scrollView1" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:id="@+id/linearLayout2" android:layout_width="fill_parent" android:orientation="vertical" android:layout_height="fill_parent" android:paddingBottom="10dp" android:paddingLeft="10dp" android:paddingRight="10dp">
+                <LinearLayout android:paddingTop="5dp" android:layout_width="fill_parent" android:id="@+id/linearLayout7" android:orientation="horizontal" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_width="wrap_content" android:id="@+id/linearLayout8" android:orientation="vertical" android:layout_height="fill_parent">
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/resultado" android:padding="10dp" android:textColor="#6ee249" android:textSize="24dp" android:text="Welcome to DreamBank"></TextView>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center|center_vertical" android:orientation="horizontal" android:id="@+id/linearLayout11" android:layout_height="wrap_content" android:layout_width="fill_parent">
+                    <TextView android:id="@+id/texto" android:text="@string/boasvindas" android:textSize="18dp" android:textColor="@color/blue_qcon" android:paddingLeft="10dp" android:layout_height="wrap_content" android:layout_width="wrap_content"></TextView>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/linearLayout3" android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical" android:gravity="center" android:paddingTop="10dp">
+                    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:background="@drawable/button_go_xml" android:id="@+id/button_go"></Button>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

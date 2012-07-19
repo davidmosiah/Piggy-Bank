@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/bg"
+	android:paddingTop="5dp">
+    <LinearLayout android:layout_width="fill_parent" android:id="@+id/action_bar" android:paddingTop="5dp" android:layout_height="55dp" android:gravity="center|left" android:background="@drawable/fundo_actionbar" android:orientation="horizontal">
+        <LinearLayout android:layout_width="wrap_content" android:id="@+id/LinearLayout06" android:layout_height="fill_parent" android:gravity="center" android:paddingLeft="5dp">
+            <ImageView android:layout_width="50dp" android:layout_height="wrap_content" android:src="@drawable/dream_dash" android:paddingRight="5dp" android:id="@+id/logo_principal"></ImageView>
+            <TextView android:text="Tips" android:shadowRadius="3.0" android:layout_width="wrap_content" android:paddingLeft="10dp" android:layout_height="wrap_content" android:shadowDy="1.0" android:shadowColor="#555555" android:textColor="#FFFFFF" android:shadowDx="1.0" android:id="@+id/titulo" android:textSize="30dp"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout7" android:background="#F5F5F5" android:orientation="vertical" android:layout_height="fill_parent">
+        <ScrollView android:layout_width="fill_parent" android:id="@+id/scrollView1" android:layout_height="wrap_content">
+            <LinearLayout android:id="@+id/linearLayout5" android:layout_width="fill_parent" android:orientation="vertical" android:layout_height="fill_parent">
+                <LinearLayout android:paddingTop="5dp" android:layout_width="fill_parent" android:id="@+id/linearLayout6" android:orientation="vertical" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout4" android:orientation="vertical" android:layout_height="wrap_content">
+                        <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout2" android:orientation="horizontal" android:layout_height="wrap_content">
+                            <ImageView android:layout_width="wrap_content" android:paddingRight="5dp" android:id="@+id/ImageView01" android:src="@drawable/tip" android:layout_height="wrap_content"></ImageView>
+                            <TextView android:layout_width="wrap_content" android:textSize="18dp" android:layout_height="wrap_content" android:textColor="#6ee249" android:id="@+id/titulo_213" android:text="Tip:"></TextView>
+                        </LinearLayout>
+                        <LinearLayout android:padding="5dp" android:layout_width="fill_parent" android:id="@+id/linearLayout3" android:orientation="horizontal" android:layout_height="wrap_content">
+                            <TextView android:layout_width="wrap_content" android:textSize="16dp" android:text="My goal:" android:layout_height="wrap_content" android:id="@+id/tip" android:textColor="#000000"></TextView>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:padding="10dp" android:layout_width="wrap_content" android:id="@+id/linearLayout6" android:paddingRight="100dp" android:orientation="horizontal" android:layout_height="fill_parent">
+                    <ImageView android:layout_width="wrap_content" android:paddingRight="100dp" android:id="@+id/previous" android:src="@drawable/voltar" android:layout_height="wrap_content"></ImageView>
+                    <ImageView android:layout_width="wrap_content" android:id="@+id/favorito" android:src="@drawable/favorito" android:layout_height="wrap_content"></ImageView>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

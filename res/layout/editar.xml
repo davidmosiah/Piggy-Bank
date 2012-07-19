@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/bg" android:padding="5dp">
+	<LinearLayout android:layout_width="fill_parent"
+		android:id="@+id/linearLayout1" android:layout_height="wrap_content"
+		android:orientation="vertical" android:gravity="center"
+		android:paddingTop="5dp">
+		<ImageView android:src="@drawable/logo"
+			android:layout_width="wrap_content" android:layout_height="wrap_content"
+			android:id="@+id/logoinspiration"></ImageView>
+	</LinearLayout>
+	<ScrollView android:id="@+id/scrollView1"
+		android:layout_width="fill_parent" android:layout_height="wrap_content">
+		<LinearLayout android:id="@+id/linearLayout2"
+			android:layout_width="fill_parent" android:layout_height="fill_parent"
+			android:orientation="vertical" android:gravity="center" android:padding="10dp">
+			<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout7" android:layout_width="fill_parent" android:orientation="horizontal" android:paddingTop="5dp">
+				<ImageView android:paddingLeft="10dp" android:paddingRight="20dp" android:id="@+id/imagemsonho" android:src="@drawable/poupanca" android:layout_width="150dp" android:layout_height="120dp"></ImageView>
+				<LinearLayout android:layout_height="fill_parent" android:id="@+id/linearLayout8" android:layout_width="wrap_content" android:orientation="vertical" android:gravity="center|center_vertical">
+					<TextView android:layout_height="wrap_content" android:textColor="#686868" android:id="@+id/tema" android:layout_width="wrap_content" android:textSize="18dp" android:paddingTop="5dp" android:text="Your goal:"></TextView>
+					<TextView android:textSize="22dp" android:padding="10dp" android:textColor="#6ee249" android:id="@+id/resultado" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Waiting for Edit"></TextView>
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout11" android:layout_width="fill_parent" android:orientation="horizontal" android:gravity="center_vertical">
+				<LinearLayout android:layout_height="wrap_content" android:orientation="vertical" android:id="@+id/linearLayout9" android:paddingTop="15dp" android:layout_width="wrap_content">
+					<LinearLayout android:layout_height="wrap_content" android:orientation="horizontal" android:id="@+id/LinearLayout03" android:layout_width="fill_parent">
+						<TextView android:layout_height="wrap_content" android:textColor="#686868" android:textSize="16dp" android:text="Your wish:" android:id="@+id/TextView08" android:layout_width="wrap_content"></TextView>
+						<TextView android:layout_height="wrap_content" android:textColor="#686868" android:textSize="16dp" android:text="another" android:id="@+id/categoria" android:layout_width="wrap_content" android:paddingLeft="10dp"></TextView>
+					</LinearLayout>
+					<LinearLayout android:layout_height="wrap_content" android:orientation="horizontal" android:id="@+id/linearLayout10" android:layout_width="fill_parent" android:paddingTop="5dp">
+						<TextView android:layout_height="wrap_content" android:textColor="#686868" android:textSize="16dp" android:text="Costs:" android:id="@+id/TextView03" android:layout_width="wrap_content" android:paddingRight="5dp"></TextView>
+						<EditText android:layout_height="50dp" android:textSize="22dp" android:text="$" android:padding="10dp" android:textColor="#6ee249" android:inputType="phone" android:id="@+id/total" android:layout_width="130dp"></EditText>
+					</LinearLayout>
+					<LinearLayout android:layout_height="wrap_content" android:orientation="horizontal" android:id="@+id/LinearLayout02" android:layout_width="fill_parent" android:paddingTop="5dp">
+						<TextView android:layout_height="wrap_content" android:textColor="#686868" android:textSize="16dp" android:text="Already saved:" android:id="@+id/TextView06" android:layout_width="wrap_content" android:paddingRight="5dp"></TextView>
+						<EditText android:layout_height="50dp" android:textSize="22dp" android:text="$" android:padding="10dp" android:textColor="#6ee249" android:inputType="phone" android:id="@+id/poupanca" android:layout_width="130dp"></EditText>
+					</LinearLayout>
+					<LinearLayout android:layout_height="wrap_content" android:orientation="horizontal" android:id="@+id/LinearLayout01" android:layout_width="fill_parent" android:paddingTop="5dp">
+						<TextView android:layout_height="wrap_content" android:textColor="#686868" android:textSize="16dp" android:text="Saver per month:" android:id="@+id/TextView04" android:layout_width="wrap_content" android:paddingRight="5dp"></TextView>
+						<EditText android:layout_height="50dp" android:textSize="22dp" android:text="$" android:padding="10dp" android:textColor="#6ee249" android:inputType="phone" android:id="@+id/mensal" android:layout_width="130dp"></EditText>
+					</LinearLayout>
+				</LinearLayout>
+				<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout12" android:layout_width="fill_parent" android:orientation="vertical" android:gravity="center">
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:layout_width="fill_parent"
+				android:id="@+id/linearLayout3" android:layout_height="wrap_content"
+				android:orientation="horizontal" android:gravity="center"
+				android:paddingTop="25dp" android:paddingBottom="15dp">
+				<LinearLayout android:layout_width="wrap_content"
+					android:id="@+id/linearLayout6" android:layout_height="fill_parent"
+					android:orientation="vertical">
+					<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="75dp" android:id="@+id/voltar" android:src="@drawable/voltar"></ImageView>
+				</LinearLayout>
+				<LinearLayout android:id="@+id/linearLayout4"
+					android:layout_height="fill_parent" android:orientation="vertical"
+					android:gravity="right" android:layout_width="wrap_content">
+					<ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingRight="10dp" android:id="@+id/salvar" android:src="@drawable/salvar"></ImageView>
+				</LinearLayout>
+			</LinearLayout>
+			<LinearLayout android:layout_height="wrap_content" android:layout_width="fill_parent" android:orientation="vertical" android:id="@+id/redesocialayout" android:gravity="center">
+			</LinearLayout>
+			<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout5" android:layout_width="fill_parent" android:orientation="vertical" android:paddingTop="10dp">
+				<LinearLayout android:layout_height="wrap_content" android:id="@+id/linearLayout2" android:layout_width="fill_parent" android:orientation="horizontal">
+			<ImageView android:layout_height="wrap_content" android:id="@+id/imageView1" android:src="@drawable/tip" android:layout_width="wrap_content" android:paddingRight="5dp"></ImageView>
+			<TextView android:layout_height="wrap_content" android:textColor="#6ee249" android:textSize="18dp" android:text="Tips:" android:id="@+id/TextView01" android:layout_width="wrap_content"></TextView>
+		</LinearLayout>
+				<TextView android:layout_height="wrap_content" android:textColor="#686868" android:textSize="18dp" android:layout_width="wrap_content" android:id="@+id/tips" android:text="Repair your goods before they become very expensive to replace. Wait too long and it may cost you dearly. "></TextView>
+			</LinearLayout>
+		</LinearLayout>
+	</ScrollView>
+
+</LinearLayout>

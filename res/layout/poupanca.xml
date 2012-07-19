@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/bg" android:paddingTop="5dp">
+    <LinearLayout android:paddingTop="5dp" android:layout_width="fill_parent" android:layout_height="55dp" android:id="@+id/action_bar" android:gravity="center|left" android:orientation="horizontal" android:background="@drawable/fundo_actionbar">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingLeft="5dp" android:id="@+id/LinearLayout04" android:gravity="center">
+            <ImageView android:paddingRight="5dp" android:id="@+id/logo_principal" android:layout_width="50dp" android:layout_height="wrap_content" android:src="@drawable/dream_dash"></ImageView>
+            <TextView android:shadowDx="1.0" android:paddingLeft="10dp" android:layout_height="wrap_content" android:shadowDy="1.0" android:shadowRadius="3.0" android:textSize="32dp" android:layout_width="wrap_content" android:id="@+id/titulo" android:shadowColor="#555555" android:textColor="#FFFFFF" android:text="My money"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:id="@+id/LinearLayout01" android:background="#F5F5F5" android:orientation="vertical" android:layout_height="fill_parent">
+        <ScrollView android:layout_width="fill_parent" android:id="@+id/scrollView1" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:id="@+id/linearLayout2" android:layout_width="fill_parent" android:orientation="vertical" android:layout_height="fill_parent">
+                <LinearLayout android:paddingTop="10dp" android:layout_width="fill_parent" android:id="@+id/linearLayout7" android:orientation="horizontal" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:paddingRight="20dp" android:id="@+id/logo" android:src="@drawable/poupanca" android:paddingLeft="10dp" android:layout_height="wrap_content"></ImageView>
+                    <LinearLayout android:gravity="center" android:layout_width="wrap_content" android:id="@+id/linearLayout8" android:orientation="vertical" android:layout_height="fill_parent">
+                        <TextView android:layout_width="wrap_content" android:textSize="20dp" android:text="I already have saved:" android:layout_height="wrap_content" android:id="@+id/tema" android:textColor="#686868"></TextView>
+                        <LinearLayout android:gravity="center" android:id="@+id/linearLayout10" android:orientation="horizontal" android:layout_height="50dp" android:paddingBottom="5dp" android:layout_width="wrap_content">
+                            <TextView android:layout_width="wrap_content" android:textSize="22dp" android:text="$" android:layout_height="wrap_content" android:id="@+id/textView1" android:textColor="#6ee249"></TextView>
+                            <EditText android:layout_weight="1" android:padding="10dp" android:textSize="22dp" android:id="@+id/valorpoupanca" android:layout_height="50dp" android:textColor="#6ee249" android:inputType="phone" android:layout_width="130dp"></EditText>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:paddingTop="10dp" android:gravity="center" android:layout_width="fill_parent" android:id="@+id/linearLayout9" android:orientation="vertical" android:layout_height="wrap_content">
+                    <TextView android:layout_width="wrap_content" android:textSize="20dp" android:text="How much can I save per month:" android:layout_height="wrap_content" android:id="@+id/TextView02" android:textColor="#686868"></TextView>
+                    <LinearLayout android:gravity="center" android:id="@+id/linearLayout10" android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="wrap_content">
+                        <TextView android:layout_width="wrap_content" android:textSize="22dp" android:text="$" android:layout_height="wrap_content" android:id="@+id/textView1" android:textColor="#6ee249"></TextView>
+                        <EditText android:layout_weight="1" android:padding="10dp" android:textSize="22dp" android:id="@+id/valormensal" android:layout_height="50dp" android:textColor="#6ee249" android:inputType="phone" android:layout_width="130dp"></EditText>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:paddingTop="25dp" android:gravity="center" android:layout_width="fill_parent" android:id="@+id/linearLayout3" android:orientation="horizontal" android:layout_height="wrap_content" android:paddingBottom="15dp">
+                    <LinearLayout android:layout_width="wrap_content" android:id="@+id/linearLayout6" android:paddingRight="100dp" android:orientation="vertical" android:layout_height="fill_parent">
+                        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/previous" android:background="@drawable/button_anterior"></Button>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="right" android:layout_width="wrap_content" android:id="@+id/linearLayout4" android:orientation="vertical" android:layout_height="fill_parent">
+                        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/next" android:background="@drawable/button_proximo"></Button>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout5" android:orientation="vertical" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout2" android:orientation="horizontal" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="wrap_content" android:paddingRight="5dp" android:id="@+id/imageView1" android:src="@drawable/tip" android:layout_height="wrap_content"></ImageView>
+                        <TextView android:layout_width="wrap_content" android:textSize="18dp" android:text="Tips:" android:layout_height="wrap_content" android:id="@+id/TextView01" android:textColor="#6ee249"></TextView>
+                    </LinearLayout>
+                    <TextView android:layout_width="wrap_content" android:textSize="18dp" android:text="Stop eating out and start eating at home you will save a lot this way and you will know what is in the food. Help save money by preparing your food at home and creating fresh food. " android:layout_height="wrap_content" android:id="@+id/tips" android:textColor="#686868"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

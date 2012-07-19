@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/bg" android:paddingTop="5dp">
+    <LinearLayout android:paddingTop="5dp" android:layout_width="fill_parent" android:layout_height="55dp" android:id="@+id/action_bar" android:gravity="center|left" android:orientation="horizontal" android:background="@drawable/fundo_actionbar">
+        <LinearLayout android:layout_width="wrap_content" android:id="@+id/LinearLayout06" android:layout_height="fill_parent" android:gravity="center" android:paddingLeft="5dp">
+            <ImageView android:layout_width="50dp" android:layout_height="wrap_content" android:src="@drawable/dream_dash" android:paddingRight="5dp" android:id="@+id/logo_principal"></ImageView>
+            <TextView android:id="@+id/titulo" android:textSize="32dp" android:text="Result" android:shadowRadius="3.0" android:layout_width="wrap_content" android:paddingLeft="10dp" android:layout_height="wrap_content" android:shadowDy="1.0" android:shadowColor="#555555" android:textColor="#FFFFFF" android:shadowDx="1.0"></TextView>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:id="@+id/LinearLayout07" android:layout_height="fill_parent" android:gravity="right" android:layout_gravity="right" android:paddingRight="5dp">
+            <LinearLayout android:layout_width="wrap_content" android:id="@+id/LinearLayout08" android:layout_height="fill_parent" android:gravity="center" android:paddingLeft="10dp" android:orientation="vertical" android:paddingRight="15dp">
+                <Button android:background="@drawable/button_bar_share_xml" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/share"></Button>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:id="@+id/LinearLayout05" android:background="#F5F5F5" android:orientation="vertical" android:layout_height="fill_parent">
+        <ScrollView android:layout_width="fill_parent" android:id="@+id/scrollView1" android:layout_height="wrap_content">
+            <LinearLayout android:padding="10dp" android:gravity="center" android:id="@+id/linearLayout2" android:layout_width="fill_parent" android:orientation="vertical" android:layout_height="fill_parent">
+                <LinearLayout android:paddingTop="5dp" android:layout_width="fill_parent" android:id="@+id/linearLayout7" android:orientation="horizontal" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:paddingRight="20dp" android:id="@+id/logo" android:src="@drawable/objetivo" android:paddingTop="20dp" android:paddingLeft="10dp" android:layout_height="wrap_content"></ImageView>
+                    <LinearLayout android:gravity="center|center_vertical" android:layout_width="wrap_content" android:id="@+id/linearLayout8" android:orientation="vertical" android:layout_height="fill_parent">
+                        <TextView android:layout_width="wrap_content" android:textSize="18dp" android:text="Your wish will be held on:" android:layout_height="wrap_content" android:id="@+id/tema" android:textColor="#686868"></TextView>
+                        <TextView android:layout_width="wrap_content" android:textSize="22dp" android:text="10 months" android:layout_height="wrap_content" android:id="@+id/resultado" android:padding="10dp" android:textColor="#6ee249"></TextView>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center|center_vertical" android:layout_width="wrap_content" android:id="@+id/LinearLayout04" android:orientation="horizontal" android:layout_height="fill_parent">
+                    <TextView android:layout_width="wrap_content" android:textSize="18dp" android:text="Your goal:" android:layout_height="wrap_content" android:id="@+id/TextView02" android:textColor="#686868"></TextView>
+                    <TextView android:layout_width="wrap_content" android:textSize="22dp" android:text="10 months" android:layout_height="wrap_content" android:id="@+id/data" android:padding="10dp" android:textColor="#6ee249"></TextView>
+                </LinearLayout>
+                <LinearLayout android:paddingTop="15dp" android:layout_width="fill_parent" android:id="@+id/linearLayout9" android:orientation="vertical" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_width="fill_parent" android:id="@+id/LinearLayout03" android:orientation="horizontal" android:layout_height="wrap_content">
+                        <TextView android:layout_width="wrap_content" android:textSize="16dp" android:text="Your wish:" android:layout_height="wrap_content" android:id="@+id/TextView08" android:textColor="#686868"></TextView>
+                        <TextView android:layout_width="wrap_content" android:textSize="16dp" android:text="another" android:layout_height="wrap_content" android:id="@+id/categoria" android:paddingLeft="10dp" android:textColor="#686868"></TextView>
+                    </LinearLayout>
+                    <LinearLayout android:paddingTop="5dp" android:layout_width="fill_parent" android:id="@+id/linearLayout10" android:orientation="horizontal" android:layout_height="wrap_content">
+                        <TextView android:layout_width="wrap_content" android:textSize="16dp" android:text="Costs:" android:layout_height="wrap_content" android:id="@+id/TextView03" android:textColor="#686868"></TextView>
+                        <TextView android:layout_width="wrap_content" android:textSize="16dp" android:text="total" android:layout_height="wrap_content" android:id="@+id/total" android:paddingLeft="10dp" android:textColor="#686868"></TextView>
+                    </LinearLayout>
+                    <LinearLayout android:paddingTop="5dp" android:layout_width="fill_parent" android:id="@+id/LinearLayout02" android:orientation="horizontal" android:layout_height="wrap_content">
+                        <TextView android:layout_width="wrap_content" android:textSize="16dp" android:text="Already saved:" android:layout_height="wrap_content" android:id="@+id/TextView06" android:textColor="#686868"></TextView>
+                        <TextView android:layout_width="wrap_content" android:textSize="16dp" android:text="poupado" android:layout_height="wrap_content" android:id="@+id/poupanca" android:paddingLeft="10dp" android:textColor="#686868"></TextView>
+                    </LinearLayout>
+                    <LinearLayout android:paddingTop="5dp" android:layout_width="fill_parent" android:id="@+id/LinearLayout01" android:orientation="horizontal" android:layout_height="wrap_content">
+                        <TextView android:layout_width="wrap_content" android:textSize="16dp" android:text="Saver per month:" android:layout_height="wrap_content" android:id="@+id/TextView04" android:textColor="#686868"></TextView>
+                        <TextView android:layout_width="wrap_content" android:textSize="16dp" android:text="mensal" android:layout_height="wrap_content" android:id="@+id/mensal" android:paddingLeft="10dp" android:textColor="#686868"></TextView>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:paddingTop="25dp" android:gravity="center" android:layout_width="fill_parent" android:id="@+id/linearLayout3" android:orientation="horizontal" android:layout_height="wrap_content" android:paddingBottom="15dp">
+                    <LinearLayout android:layout_width="wrap_content" android:id="@+id/linearLayout6" android:orientation="vertical" android:layout_height="fill_parent">
+                        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/previous" android:background="@drawable/button_anterior"></Button>
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="wrap_content" android:id="@+id/linearLayout11" android:paddingRight="60dp" android:orientation="vertical" android:layout_height="fill_parent"></LinearLayout>
+                    <LinearLayout android:gravity="right" android:layout_width="wrap_content" android:id="@+id/linearLayout4" android:orientation="vertical" android:layout_height="fill_parent">
+                        <Button android:layout_width="wrap_content" android:paddingRight="10dp" android:layout_height="wrap_content" android:id="@+id/salvar" android:background="@drawable/button_salvar"></Button>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:paddingTop="10dp" android:layout_width="fill_parent" android:id="@+id/linearLayout5" android:orientation="vertical" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout2" android:orientation="horizontal" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="wrap_content" android:paddingRight="5dp" android:id="@+id/imageView1" android:src="@drawable/tip" android:layout_height="wrap_content"></ImageView>
+                        <TextView android:layout_width="wrap_content" android:textSize="18dp" android:text="Tips:" android:layout_height="wrap_content" android:id="@+id/TextView01" android:textColor="#6ee249"></TextView>
+                    </LinearLayout>
+                    <TextView android:layout_width="wrap_content" android:textSize="18dp" android:text="Repair your goods before they become very expensive to replace. Wait too long and it may cost you dearly. " android:layout_height="wrap_content" android:id="@+id/tips" android:textColor="#686868"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

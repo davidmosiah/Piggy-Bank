@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/bg"
+	android:paddingTop="5dp">
+    <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout4" android:orientation="vertical" android:background="#F5F5F5" android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:id="@+id/action_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/fundo_actionbar"
+            android:gravity="center_vertical|left"
+            android:orientation="horizontal"
+            android:paddingTop="5dp" >
+
+            <LinearLayout
+                android:id="@+id/LinearLayout02"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:gravity="center_vertical|left"
+                android:paddingLeft="5dp" >
+
+                <ImageView
+                    android:id="@+id/logo_principal"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="5dp"
+                    android:src="@drawable/dream_dash" />
+
+                <TextView
+                    android:id="@+id/titulo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:shadowColor="#555555"
+                    android:shadowDx="1.0"
+                    android:shadowDy="1.0"
+                    android:shadowRadius="1.0"
+                    android:text="Piggy Bank"
+                    android:textColor="@color/branco"
+                    android:textSize="32dp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout android:padding="5dp" android:gravity="center|center_vertical" android:layout_width="fill_parent" android:id="@+id/linearLayout1" android:orientation="horizontal" android:layout_height="wrap_content">
+        </LinearLayout>
+        <ScrollView android:layout_width="fill_parent" android:id="@+id/scrollView1" android:layout_height="wrap_content">
+            <LinearLayout android:id="@+id/linearLayout3" android:layout_width="fill_parent" android:orientation="vertical" android:layout_height="fill_parent">
+                <LinearLayout android:layout_width="fill_parent" android:orientation="vertical" android:layout_height="wrap_content">
+                    <LinearLayout android:paddingTop="10dp" android:layout_width="fill_parent" android:layout_weight="1" android:orientation="horizontal" android:layout_height="120dp" android:paddingBottom="10dp">
+                        <Button style="@style/HomeButton" android:text="Manage dreams" android:drawableTop="@drawable/dream_dash" android:id="@+id/home_btn_sonho"></Button>
+                        <Button style="@style/HomeButton" android:text="Owned Dreams" android:drawableTop="@drawable/trofeu" android:id="@+id/home_btn_trofeu"></Button>
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="fill_parent" android:layout_weight="1" android:orientation="horizontal" android:layout_height="120dp">
+                        <Button style="@style/HomeButton" android:text="Tips" android:drawableTop="@drawable/tips_dash" android:id="@+id/home_btn_tips"></Button>
+
+                        <Button
+                            android:id="@+id/button_support"
+                            style="@style/HomeButton"
+                            android:drawableTop="@drawable/support_dash"
+                            android:text="Support" />
+
+                    </LinearLayout>
+                    <LinearLayout android:layout_width="fill_parent" android:layout_weight="1" android:orientation="horizontal" android:layout_height="120dp">
+                        <Button style="@style/HomeButton" android:text="Rate" android:drawableTop="@drawable/dash_rate" android:id="@+id/button_rate"></Button>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:paddingTop="10dp" android:padding="5dp" android:layout_width="fill_parent" android:id="@+id/linearLayout5" android:orientation="vertical" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout2" android:orientation="horizontal" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="wrap_content" android:paddingRight="5dp" android:id="@+id/imageView1" android:src="@drawable/tip" android:layout_height="wrap_content"></ImageView>
+                        <TextView android:layout_width="wrap_content" android:textSize="18dp" android:text="Tips:" android:layout_height="wrap_content" android:id="@+id/TextView01" android:textColor="#6ee249"></TextView>
+                    </LinearLayout>
+                    <TextView android:layout_width="wrap_content" android:textSize="18dp" android:text="Repair your goods before they become very expensive to replace. Wait too long and it may cost you dearly. " android:layout_height="wrap_content" android:id="@+id/tips" android:textColor="#686868"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</LinearLayout>

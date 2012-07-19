@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/bg"
+	android:paddingTop="5dp">
+    <LinearLayout android:layout_width="fill_parent" android:id="@+id/action_bar" android:paddingTop="5dp" android:layout_height="55dp" android:gravity="center|left" android:background="@drawable/fundo_actionbar" android:orientation="horizontal">
+        <LinearLayout android:layout_width="wrap_content" android:id="@+id/LinearLayout04" android:layout_height="fill_parent" android:gravity="center" android:paddingLeft="5dp">
+            <ImageView android:layout_width="50dp" android:layout_height="wrap_content" android:src="@drawable/dream_dash" android:paddingRight="5dp" android:id="@+id/logo_principal"></ImageView>
+            <TextView android:id="@+id/titulo" android:textSize="32dp" android:shadowRadius="3.0" android:layout_width="wrap_content" android:paddingLeft="10dp" android:layout_height="wrap_content" android:shadowDy="1.0" android:shadowColor="#555555" android:textColor="#FFFFFF" android:shadowDx="1.0" android:text="Deposit money"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="fill_parent" android:id="@+id/LinearLayout01" android:background="#F5F5F5" android:orientation="vertical" android:layout_height="fill_parent">
+        <ScrollView android:layout_width="fill_parent" android:id="@+id/scrollView1" android:layout_height="wrap_content">
+            <LinearLayout android:padding="10dp" android:gravity="center" android:id="@+id/linearLayout2" android:layout_width="fill_parent" android:orientation="vertical" android:layout_height="fill_parent">
+                <LinearLayout android:paddingTop="5dp" android:gravity="center" android:layout_width="fill_parent" android:id="@+id/linearLayout7" android:orientation="vertical" android:layout_height="wrap_content">
+                    <TextView android:layout_width="wrap_content" android:textSize="20dp" android:text="Congratulations! Your dreams are more closer now!" android:layout_height="wrap_content" android:id="@+id/TextView02" android:paddingLeft="10dp" android:textColor="#686868"></TextView>
+                    <ImageView android:layout_width="180dp" android:paddingRight="20dp" android:id="@+id/imagemsonho" android:src="@drawable/tvnova" android:paddingLeft="10dp" android:layout_height="120dp"></ImageView>
+                </LinearLayout>
+                <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:id="@+id/linearLayout11" android:orientation="horizontal" android:layout_height="wrap_content">
+                    <LinearLayout android:paddingTop="15dp" android:gravity="center" android:layout_width="wrap_content" android:id="@+id/linearLayout9" android:orientation="vertical" android:layout_height="wrap_content">
+                        <LinearLayout android:layout_width="fill_parent" android:id="@+id/LinearLayout03" android:orientation="horizontal" android:layout_height="wrap_content">
+                            <TextView android:layout_width="wrap_content" android:textSize="20dp" android:text="I want to deposit:" android:layout_height="wrap_content" android:id="@+id/categoria" android:paddingLeft="10dp" android:textColor="#686868"></TextView>
+                        </LinearLayout>
+                        <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:id="@+id/linearLayout10" android:orientation="horizontal" android:layout_height="wrap_content">
+                            <TextView android:layout_width="wrap_content" android:textSize="22dp" android:text="$" android:layout_height="wrap_content" android:id="@+id/textView1" android:textColor="#6ee249"></TextView>
+                            <EditText android:layout_weight="1" android:layout_width="100dp" android:padding="10dp" android:textSize="22dp" android:id="@+id/guardar" android:layout_height="50dp" android:textColor="#6ee249" android:inputType="phone"></EditText>
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:id="@+id/linearLayout12" android:orientation="vertical" android:layout_height="wrap_content">
+                        <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/depositar" android:background="@drawable/button_guardar"></Button>
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:layout_width="fill_parent" android:id="@+id/redesocialayout" android:orientation="vertical" android:layout_height="wrap_content"></LinearLayout>
+                <LinearLayout android:paddingTop="10dp" android:layout_width="fill_parent" android:id="@+id/linearLayout5" android:orientation="vertical" android:layout_height="wrap_content">
+                    <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout2" android:orientation="horizontal" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="wrap_content" android:paddingRight="5dp" android:id="@+id/imageView1" android:src="@drawable/tip" android:layout_height="wrap_content"></ImageView>
+                        <TextView android:layout_width="wrap_content" android:textSize="18dp" android:text="Tips:" android:layout_height="wrap_content" android:id="@+id/TextView01" android:textColor="#6ee249"></TextView>
+                    </LinearLayout>
+                    <TextView android:layout_width="wrap_content" android:textSize="18dp" android:text="Repair your goods before they become very expensive to replace. Wait too long and it may cost you dearly. " android:layout_height="wrap_content" android:id="@+id/tips" android:textColor="#686868"></TextView>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

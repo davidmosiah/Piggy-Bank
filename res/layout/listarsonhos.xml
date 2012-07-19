@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:background="@drawable/bg" android:paddingTop="5dp">
+
+    <LinearLayout
+        android:id="@+id/action_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/fundo_actionbar"
+        android:gravity="center_vertical|left"
+        android:orientation="horizontal"
+        android:paddingTop="5dp" >
+
+        <LinearLayout
+            android:id="@+id/LinearLayout02"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="5dp" >
+
+            <Button
+                android:id="@+id/actionbar_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/actionbar_voltar_xml" />
+
+            <ImageView
+                android:id="@+id/logo_principal"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:paddingRight="5dp"
+                android:src="@drawable/dream_dash" />
+
+            <TextView
+                android:id="@+id/titulo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:shadowColor="#555555"
+                android:shadowDx="1.0"
+                android:shadowDy="1.0"
+                android:shadowRadius="1.0"
+                android:text="Wish List"
+                android:textColor="@color/branco"
+                android:textSize="32dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/LinearLayout04"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:gravity="center_vertical|right"
+            android:paddingRight="5dp" >
+
+            <Button
+                android:id="@+id/novo"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/button_bar_novo" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="fill_parent" android:id="@+id/linearLayout7" android:background="#F5F5F5" android:orientation="vertical" android:layout_height="fill_parent">
+        <ListView android:layout_width="wrap_content" android:id="@+id/listview" android:cacheColorHint="#00000000" android:layout_height="wrap_content"></ListView>
+    </LinearLayout>
+</LinearLayout>

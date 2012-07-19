@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AngryBanksActivity!</string>
+    <string name="app_name">Piggy Bank</string>
+    <string name="boasvindas">This application is a very useful and fun! You can manage all your wishes to purchase as tablets, mobile phones, international travels and more!
+It is very simple, you choose your wish, how much it costs, how much you already have and how much you can save per month, and the app calculates how much time you will get that dream!
+Then you can manage your wish, depositing your money in every month in the My Piggy Bank until you can buy your wish. Enjoy!</string>
+</resources>
